@@ -1,0 +1,19 @@
+/* Error: expected "{".
+ *    ,
+ * 24 |     width: 940px;
+ *    |                 ^
+ *    '
+ *   scss/home_5_styles/components/_custom-grid.scss 24:14  @import
+ *   scss/all.scss 140:9                                    root stylesheet */
+
+body::before {
+  display: block;
+  margin-bottom: 1em;
+  padding: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a    \2577 \a 24 \2502      width: 940px;\d\a    \2502                  ^\a    \2575 \a   scss/home_5_styles/components/_custom-grid.scss 24:14  @import\a   scss/all.scss 140:9                                    root stylesheet';
+  white-space: pre;
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+}
+

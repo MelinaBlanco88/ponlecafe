@@ -1,0 +1,2327 @@
+<!DOCTYPE html>
+<html lang="en" class="add-scroll html-root">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Home_07</title>
+	<link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+	<link rel="manifest" href="img/favicons/manifest.json">
+	<link rel="mask-icon" hasdref="img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="theme-color" content="#ffffff">
+	<meta name = "format-detection" content = "telephone=no">
+
+	<link rel="stylesheet" href="all.css">
+</head>
+<body data-spy="scroll" data-target=".header"  data-offset="76" class="-loading standart-grid add-scroll video-landing full-page-landing">
+
+	<!-- PRELOADER -->
+	<div class="preloader">
+		<div class="preloader_logo">
+			<div class="sk-folding-cube selected">
+				<div class="sk-cube1 sk-cube"></div>
+				<div class="sk-cube2 sk-cube"></div>
+				<div class="sk-cube4 sk-cube"></div>
+				<div class="sk-cube3 sk-cube"></div>
+			</div>
+		</div>
+	</div>
+	<!-- PRELOADER END -->
+
+	<!-- SIDE MENU (RESERVATION) -->
+	<div off-canvas="side-reservation right push" class="custom-sidebar-width -white-sidebar" id="sideReservation">
+		<div class="side-bar-wrap">
+			<!-- CLOSE BTN -->
+			<div class="modal-close modal-close-with-stick">
+				<a href="javascript:void(0);"><i class="fa fa-times" aria-hidden="true"></i></a>
+			</div>
+			<!-- CLOSE BTN END -->
+			<h2 class="section-title -side-stick">Reservation</h2>
+			<div class="reservation-descr text-right">
+				<p>Book a table online.</p>
+				<p>At vero et odio ducimus qiu bland</p>
+			</div>
+			<form action="javascript:void(0);" class="form-modal">
+				<div class="form-group">
+					<label for="reservation_name">Your name</label>
+					<input type="text" class="form-control" id="reservation_name" placeholder="Your Name" required>
+				</div>
+				<div class="form-group">
+					<label for="reservation_phone">Phone number</label>
+					<input type="text" class="form-control" id="reservation_phone" placeholder="+123456789" required>
+				</div>
+				<div class="form-group">
+					<label for="reservation_massage">Your message</label>
+					<textarea class="form-control" id="reservation_massage" placeholder="Write here your message..." required></textarea>
+				</div>
+				<input class="btn btn-primary -small" type="submit" value="Make a reservation">
+			</form>
+
+			<div class="reservation-call text-right">
+				<p>You can also call: <span><a href="tel:+123456789">+1 23456789</a></span></br>to make a reservation</p>
+			</div>
+		</div>
+	</div>
+	<!-- SIDE MENU (RESERVATION) END -->
+
+	<!-- RESERVATION BUTTON -->
+	<span class="reservation-btn reservation-btn--transparent">
+		<a href="javascript:void(0);" class="btn -white btn-md -vertical" data-toggle="modal" data-target="#reservationModal">
+			reservation
+		</a>
+	</span>
+	<!-- RESERVATION BUTTON END -->
+
+	<!-- TOP LINE -->
+	<header canvas class="header -scroll_white header--2-elements header--fixed header-scrolling-menu">
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+
+				<div class="header-top-line-wrap">
+
+					<div class="right-side-top-line">
+						<a href="/cart.html" class="cart-price">
+							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							<span class="cart-products">$0.00</span>
+						</a>
+						<!-- mobile menu button -->
+						<div class="navbar-header navbar-header--on-white">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main_navbar" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<!-- mobile menu button END -->
+					</div>
+
+					<div class="collapse navbar-collapse" id="main_navbar">
+
+						<ul class="nav navbar-nav" id="myMenu">
+							<li data-menuanchor="section-home-anchor" class="active">
+								<a href="#section-home-anchor">
+									<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+													 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+									<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+										l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+									</svg>
+									<span>Home</span>
+									<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+													 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+									<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+										l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+									</svg>
+								</a>
+							</li>
+							<li data-menuanchor="section-our-story-anchor">
+								<a href="#section-our-story-anchor">
+									<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+													 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+									<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+										l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+									</svg>
+									<span>About us</span>
+									<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+													 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+									<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+										l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+									</svg>
+								</a>
+							</li>
+							<li data-menuanchor="section-our-gallery-anchor">
+								<a href="#section-our-gallery-anchor">
+									<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+													 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+									<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+										l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+									</svg>
+									<span>Our gallery</span>
+									<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+													 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+									<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+										l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+									</svg>
+								</a>
+							</li>
+							<li data-menuanchor="section-menu-anchor">
+								<a href="#section-menu-anchor">
+									<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+													 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+									<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+										l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+									</svg>
+									<span>Menu</span>
+									<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+													 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+									<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+										l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+									</svg>
+								</a>
+							</li>
+							<li data-menuanchor="section-testimonials-anchor">
+								<a href="#section-testimonials-anchor">
+									<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+													 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+									<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+										l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+									</svg>
+									<span>Testimonials</span>
+									<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+													 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+									<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+										l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+									</svg>
+								</a>
+							</li>
+							<li data-menuanchor="section-shop-anchor">
+								<a href="#section-shop-anchor">
+									<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+													 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+									<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+										l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+									</svg>
+									<span>Shop</span>
+									<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+													 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+									<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+										l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+									</svg>
+								</a>
+							</li>
+							<li data-menuanchor="section-contact-us-anchor">
+								<a href="#section-contact-us-anchor">
+									<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+													 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+									<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+										l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+									</svg>
+									<span>Get in touch</span>
+									<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+													 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+									<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+										l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+
+				</div>
+
+			</div><!-- /.container-fluid -->
+		</nav>
+	</header>
+	<!-- TOP LINE END -->
+
+	<!-- TOP BUTTON -->
+	<div canvas class="scroll_top">
+		<i class="fa fa-chevron-up"></i>
+	</div>
+	<!-- TOP BUTTON END -->
+
+	<div class="main-wrap-content" canvas="container">
+
+		<main class="main" id="fullPageLanding">
+			<!-- WELCOME SECTION -->
+			<section class="section section-welcome active" id="section-home" data-anchor="section-home-anchor">
+
+				<!-- MAIN CONTENT -->
+				<div class="container">
+					<div class="content">
+						<div class="logo-center">
+							<img src="img/logo_white_lg.png" alt="logo">
+						</div>
+
+						<!-- SOCIAL -->
+						<div class="follow-block follow-block--vertical">
+							<ul class="social-list -md-2 -white">
+								<li>
+									<a href="javascript:void(0);" target="_blank">
+										<i class="fa fa-facebook" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="javascript:void(0);" target="_blank">
+										<i class="fa fa-twitter" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="javascript:void(0);" target="_blank">
+										<i class="fa fa-google-plus" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="javascript:void(0);" target="_blank">
+										<i class="fa fa-pinterest-p" aria-hidden="true"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<!-- SOCIAL END -->
+					</div>
+				</div>
+				<!-- MAIN CONTENT END -->
+
+				<!-- ARROW-DOWN -->
+				<a href="#section-our-story" class="arrow-down-icon">
+					<i class="fa fa-chevron-down" aria-hidden="true"></i>
+				</a>
+				<!-- ARROW-DOWN END -->
+			</section>
+			<!-- WELCOME SECTION END -->
+
+			<!-- OUR STORY SECTION -->
+			<section class="section section-our-story" id="section-our-story" data-anchor="section-our-story-anchor">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-sm-8 col-md-4 our-story-figure-wrap our-story-figure-wrap--top" data-bg="url(../img/our_story_bg_1.jpg)">
+
+							<!-- figure bacground -->
+							<div class="our-story-figure-bg-tl">
+								<div class="triangle"></div>
+								<div class="triangle"></div>
+							</div>
+							<!-- figure bacground END -->
+
+							<article>
+								<div class="title-alighn">
+									<div class="title-wrap">
+										<h2 class="section-title -side-stick-big">Our story</h2>
+									</div>
+								</div>
+
+								<div class="text-block">
+									<p>Ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								</div>
+							</article>
+						</div>
+
+						<div class="col-sm-8 col-md-4 col-sm-offset-4 col-md-offset-0 our-story-figure-wrap our-story-figure-wrap--bottom" data-bg="url(../img/our_story_bg_2.jpg)">
+
+							<!-- figure bacground -->
+							<div class="our-story-figure-bg-br">
+								<div class="triangle"></div>
+								<div class="triangle"></div>
+							</div>
+							<!-- figure bacground END -->
+
+							<article>
+								<div class="title-alighn">
+									<div class="title-wrap">
+										<h2 class="section-title -side-stick-big">What we do</h2>
+									</div>
+								</div>
+
+								<div class="text-block">
+									<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+									<p>Numerous commentators have also referred to the supposed restaurant owner's eccentric habit of touting for custom.</p>
+								</div>
+							</article>
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<!-- OUR STORY SECTION -->
+
+			<!-- OUR GALLERY SECTION -->
+			<section class="section section-our-gallery -small-nav-block" id="section-our-gallery" data-anchor="section-our-gallery-anchor">
+				<div class="container">
+					<div class="section-content-wrap">
+						<div class="our-gallery-top-line">
+							<div class="title-wrap">
+								<h2 class="section-title -side-stick-big">Our gallery</h2>
+							</div>
+
+							<ul class="nav nav-tabs gallery-filter-nav" id="articles-filter">
+								<li>
+									<a href="#All" class="active" data-group="all">
+										<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+										<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+											l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+										</svg>
+										<span>All</span>
+										<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+										<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+											l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+										</svg>
+									</a>
+								</li>
+								<li>
+									<a href="#Interior" data-group="Interior">
+										<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+										<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+											l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+										</svg>
+										<span>Interior</span>
+										<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+										<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+											l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+										</svg>
+									</a>
+								</li>
+								<li>
+									<a href="#Drinks" data-group="Drinks">
+										<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+										<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+											l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+										</svg>
+										<span>Drinks</span>
+										<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+										<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+											l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+										</svg>
+									</a>
+								</li>
+								<li>
+									<a href="#Food" data-group="Food">
+										<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+										<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+											l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+										</svg>
+										<span>Food</span>
+										<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+										<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+											l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+										</svg>
+									</a>
+								</li>
+								<li>
+									<a href="#Cakes" data-group="Cakes">
+										<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+										<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+											l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+										</svg>
+										<span>Cakes</span>
+										<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+										<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+											l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+										</svg>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<!-- GALLERY SLIDER -->
+				<div class="container-fluid">
+					<div class="modern-slider-wrap" id="articles-choice-item">
+						<!-- drinks group -->
+						<div data-filter="Drinks">
+							<a class="modern-slider-item" href="img/our_gallery_img_6.jpg" style="background-image: url(img/our_gallery_img_6.jpg)">
+								<img src="img/full-size.svg" alt="icon">
+							</a>
+						</div>
+						<div data-filter="Drinks">
+							<a class="modern-slider-item" href="img/our_gallery_img_5.jpg" style="background-image: url(img/our_gallery_img_5.jpg)">
+								<img src="img/full-size.svg" alt="icon">
+							</a>
+						</div>
+						<div data-filter="Drinks">
+							<a class="modern-slider-item" href="img/our_gallery_img_4.jpg" style="background-image: url(img/our_gallery_img_4.jpg)">
+								<img src="img/full-size.svg" alt="icon">
+							</a>
+						</div>
+						<div data-filter="Drinks">
+							<a class="modern-slider-item" href="img/our_gallery_img_3.jpg" style="background-image: url(img/our_gallery_img_3.jpg)">
+								<img src="img/full-size.svg" alt="icon">
+							</a>
+						</div>
+
+						<div data-filter="Drinks">
+							<a class="modern-slider-item" href="img/our_gallery_img_1.jpg" style="background-image: url(img/our_gallery_img_1.jpg)">
+								<img src="img/full-size.svg" alt="icon">
+							</a>
+						</div>
+						<!-- drinks group END -->
+
+						<!-- interior group -->
+						<div data-filter="Interior">
+							<a class="modern-slider-item" href="img/our_gallery_img_1.jpg" style="background-image: url(img/our_gallery_img_1.jpg)">
+								<img src="img/full-size.svg" alt="icon">
+							</a>
+						</div>
+						<div data-filter="Interior">
+							<a class="modern-slider-item" href="img/our_gallery_img_2.jpg" style="background-image: url(img/our_gallery_img_2.jpg)">
+								<img src="img/full-size.svg" alt="icon">
+							</a>
+						</div>
+						<div data-filter="Interior">
+							<a class="modern-slider-item" href="img/our_gallery_img_3.jpg" style="background-image: url(img/our_gallery_img_3.jpg)">
+								<img src="img/full-size.svg" alt="icon">
+							</a>
+						</div>
+						<div data-filter="Interior">
+							<a class="modern-slider-item" href="img/our_gallery_img_4.jpg" style="background-image: url(img/our_gallery_img_4.jpg)">
+								<img src="img/full-size.svg" alt="icon">
+							</a>
+						</div>
+						<div data-filter="Interior">
+							<a class="modern-slider-item" href="img/our_gallery_img_5.jpg" style="background-image: url(img/our_gallery_img_5.jpg)">
+								<img src="img/full-size.svg" alt="icon">
+							</a>
+						</div>
+						<div data-filter="Interior">
+							<a class="modern-slider-item" href="img/our_gallery_img_6.jpg" style="background-image: url(img/our_gallery_img_6.jpg)">
+								<img src="img/full-size.svg" alt="icon">
+							</a>
+						</div>
+						<!-- interior group END -->
+
+						<!-- food group -->
+						<div data-filter="Food">
+							<a class="modern-slider-item" href="img/our_gallery_img_2.jpg" style="background-image: url(img/our_gallery_img_2.jpg)">
+								<img src="img/full-size.svg" alt="icon">
+							</a>
+						</div>
+						<div data-filter="Food">
+							<a class="modern-slider-item" href="img/our_gallery_img_4.jpg" style="background-image: url(img/our_gallery_img_4.jpg)">
+								<img src="img/full-size.svg" alt="icon">
+							</a>
+						</div>
+						<div data-filter="Food">
+							<a class="modern-slider-item" href="img/our_gallery_img_6.jpg" style="background-image: url(img/our_gallery_img_6.jpg)">
+								<img src="img/full-size.svg" alt="icon">
+							</a>
+						</div>
+						<div data-filter="Food">
+							<a class="modern-slider-item" href="img/our_gallery_img_1.jpg" style="background-image: url(img/our_gallery_img_1.jpg)">
+								<img src="img/full-size.svg" alt="icon">
+							</a>
+						</div>
+						<div data-filter="Food">
+							<a class="modern-slider-item" href="img/our_gallery_img_3.jpg" style="background-image: url(img/our_gallery_img_3.jpg)">
+								<img src="img/full-size.svg" alt="icon">
+							</a>
+						</div>
+						<div data-filter="Food">
+							<a class="modern-slider-item" href="img/our_gallery_img_5.jpg" style="background-image: url(img/our_gallery_img_5.jpg)">
+								<img src="img/full-size.svg" alt="icon">
+							</a>
+						</div>
+						<div data-filter="Food">
+							<a class="modern-slider-item" href="img/our_gallery_img_6.jpg" style="background-image: url(img/our_gallery_img_6.jpg)">
+								<img src="img/full-size.svg" alt="icon">
+							</a>
+						</div>
+
+						<!-- food group END -->
+
+						<!-- cakes group -->
+						<div data-filter="Cakes">
+							<a class="modern-slider-item" href="img/our_gallery_img_1.jpg" style="background-image: url(img/our_gallery_img_1.jpg)">
+								<img src="img/full-size.svg" alt="icon">
+							</a>
+						</div>
+
+						<div data-filter="Cakes">
+							<a class="modern-slider-item" href="img/our_gallery_img_4.jpg" style="background-image: url(img/our_gallery_img_4.jpg)">
+								<img src="img/full-size.svg" alt="icon">
+							</a>
+						</div>
+						<div data-filter="Cakes">
+							<a class="modern-slider-item" href="img/our_gallery_img_1.jpg" style="background-image: url(img/our_gallery_img_1.jpg)">
+								<img src="img/full-size.svg" alt="icon">
+							</a>
+						</div>
+						<div data-filter="Cakes">
+							<a class="modern-slider-item" href="img/our_gallery_img_2.jpg" style="background-image: url(img/our_gallery_img_2.jpg)">
+								<img src="img/full-size.svg" alt="icon">
+							</a>
+						</div>
+						<div data-filter="Cakes">
+							<a class="modern-slider-item" href="img/our_gallery_img_3.jpg" style="background-image: url(img/our_gallery_img_3.jpg)">
+								<img src="img/full-size.svg" alt="icon">
+							</a>
+						</div>
+						<!-- cakes group END -->
+					</div>
+				</div>
+				<!-- GALLERY SLIDER END -->
+
+				<div class="container">
+					<div class="text-center">
+						<a href="/page_gallery_01.html" class="btn btn-primary -black-text -small">View all</a>
+					</div>
+				</div>
+			</section>
+			<!-- OUR GALLERY SECTION END -->
+
+			<!-- OUR MENU SECTION -->
+			<section class="section section-our-menu -small-nav-block -our-menu--full-page -white-menu-tabs" id="section-menu" data-anchor="section-menu-anchor">
+				<!-- left img -->
+				<div class="tabMenu-long_bg">
+					<div class="resp_img" style="background-image: url(img/our_menu_side_bg_1.jpg);" ></div>
+				</div>
+				<!-- left img END -->
+
+				<!-- main content -->
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 col-sm-offset-0 col-md-10 col-md-offset-2 col-lg-9 col-lg-offset-3 ">
+							<div class="title-alighn">
+								<div class="title-wrap">
+									<h2 class="section-title -side-stick-big">Our menu</h2>
+								</div>
+							</div>
+							<p class="section-descr">
+								At vero eos et accusamus et iusto odio dignissimos ducmus qui blanditiis praesentium voluptatum deleolor olestias excepturi sint occaecati cupiditate non provident
+							</p>
+							<div class="tabMenu" id="tabChange">
+								<ul class="nav nav-tabs gallery-filter-nav" role="tablist">
+									<li role="presentation" class="active">
+										<a href="#tab_1" aria-controls="tab_1" role="tab" data-toggle="tab" data-img-of-category="url(../img/our_menu_side_bg_1.jpg)">
+											<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+											<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+												l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+											</svg>
+											<span>Coffe</span>
+											<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+											<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+												l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+											</svg>
+										</a>
+									</li>
+									<li role="presentation">
+										<a href="#tab_2" aria-controls="tab_2" role="tab" data-toggle="tab" data-img-of-category="url(../img/our_menu_side_bg_2.jpg)">
+											<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+											<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+												l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+											</svg>
+											<span>Teas</span>
+											<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+											<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+												l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+											</svg>
+										</a>
+									</li>
+									<li role="presentation">
+										<a href="#tab_3" aria-controls="tab_3" role="tab" data-toggle="tab" data-img-of-category="url(../img/our_menu_side_bg_1.jpg)">
+											<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+											<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+												l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+											</svg>
+											<span>Bakery</span>
+											<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+											<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+												l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+											</svg>
+										</a>
+									</li>
+									<li role="presentation">
+										<a href="#tab_4" aria-controls="tab_4" role="tab" data-toggle="tab" data-img-of-category="url(../img/our_menu_side_bg_2.jpg)">
+											<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+											<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+												l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+											</svg>
+											<span>Cakes</span>
+											<svg version="1.1" class="ico-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											 viewBox="0 0 9.2 9.2" enable-background="new 0 0 9.2 9.2" xml:space="preserve">
+											<path fill="#FFD03B" d="M5.8,8.7C5.5,9,5,9.2,4.6,9.2S3.7,9,3.4,8.7L0.5,5.8c-0.7-0.7-0.7-1.7,0-2.4l2.9-2.9c0.7-0.7,1.7-0.7,2.4,0
+												l2.9,2.9c0.7,0.7,0.7,1.7,0,2.4L5.8,8.7z"/>
+											</svg>
+										</a>
+									</li>
+								</ul>
+								<!-- TABS CONTENT -->
+								<div class="tab-content">
+									<!-- TAB 1 -->
+									<div role="tabpanel" class="tab-pane active fade in" id="tab_1">
+										<div class="tabMenu-slider cup-dots tab_1">
+											<!-- SLIDE 1 -->
+											<div class="tabMenu-slider_item">
+												<ul class="tabMenu-list">
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Americano</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Lungo</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text </p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Cappuccino</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Name of Dish</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Caramel Latte</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Machiato</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Honey coffee</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Americano Triple </p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+												</ul>
+											</div>
+											<!-- SLIDE 2 -->
+											<div class="tabMenu-slider_item">
+												<ul class="tabMenu-list">
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Honey coffee</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Americano Triple </p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Caramel Latte</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Machiato</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Cappuccino</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Name of Dish</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Americano</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Lungo</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+												</ul>
+											</div>
+											<!-- SLIDE 3 -->
+											<div class="tabMenu-slider_item">
+												<ul class="tabMenu-list">
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Americano</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Lungo</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Cappuccino</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Name of Dish</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Caramel Latte</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Machiato</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Honey coffee</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Americano Triple </p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+												</ul>
+											</div>
+											<!-- SLIDE 4 -->
+											<div class="tabMenu-slider_item">
+												<ul class="tabMenu-list">
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Americano</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Lungo</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Cappuccino</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Name of Dish</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Caramel Latte</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Machiato</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<!-- TAB 2 -->
+									<div role="tabpanel" class="tab-pane fade" id="tab_2">
+										<div class="tabMenu-slider cup-dots tab_2">
+											<!-- SLIDE 1 -->
+											<div class="tabMenu-slider_item">
+												<ul class="tabMenu-list">
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Honey coffee</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Americano Triple </p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Caramel Latte</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Machiato</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Cappuccino</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Name of Dish</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Americano</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Lungo</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+												</ul>
+											</div>
+											<!-- SLIDE 2 -->
+											<div class="tabMenu-slider_item">
+												<ul class="tabMenu-list">
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Americano</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Lungo</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Cappuccino</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Name of Dish</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Caramel Latte</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<!-- TAB 3 -->
+									<div role="tabpanel" class="tab-pane fade" id="tab_3">
+										<div class="tabMenu-slider cup-dots tab_3">
+											<!-- SLIDE 1 -->
+											<div class="tabMenu-slider_item">
+												<ul class="tabMenu-list">
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Cappuccino</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Name of Dish</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Americano</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Lungo</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Honey coffee</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Americano Triple </p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Caramel Latte</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Machiato</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+												</ul>
+											</div>
+											<!-- SLIDE 2 -->
+											<div class="tabMenu-slider_item">
+												<ul class="tabMenu-list">
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Americano</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Lungo</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Cappuccino</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Name of Dish</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<!-- TAB 4 -->
+									<div role="tabpanel" class="tab-pane fade" id="tab_4">
+										<div class="tabMenu-slider cup-dots tab_4">
+											<!-- SLIDE 1 -->
+											<div class="tabMenu-slider_item">
+												<ul class="tabMenu-list">
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Caramel Latte</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Machiato</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Cappuccino</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Name of Dish</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Americano</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Lungo</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Honey coffee</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Americano Triple </p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+												</ul>
+											</div>
+											<!-- SLIDE 2 -->
+											<div class="tabMenu-slider_item">
+												<ul class="tabMenu-list">
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Americano</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Lungo</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Cappuccino</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Name of Dish</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Caramel Latte</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Machiato</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Honey coffee</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Americano Triple </p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+												</ul>
+											</div>
+											<!-- SLIDE 3 -->
+											<div class="tabMenu-slider_item">
+												<ul class="tabMenu-list">
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Honey coffee</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Americano Triple </p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Caramel Latte</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Machiato</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Cappuccino</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Name of Dish</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Americano</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Lungo</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+												</ul>
+											</div>
+											<!-- SLIDE 4 -->
+											<div class="tabMenu-slider_item">
+												<ul class="tabMenu-list">
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Americano</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Lungo</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Cappuccino</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Name of Dish</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_1.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Caramel Latte</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+													<li class="tabMenu-item clearfix"> 
+														<div class="tabMenu-content">
+															<div class="tabMenu-img">
+																<img src="img/cup_img_2.png" alt="img">
+															</div>
+															<div class="tabMenu-content_inner">
+																<p class="tabMenu-content-title">Machiato</p>
+																<p class="tabMenu-content-descr">Lorem Ipsum is simply text</p>
+															</div>
+														</div>
+														<div class="tabMenu-price">
+															<span>$20.00</span>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- TABS CONTENT END -->
+							</div>
+
+							<div class="text-center">
+								<a href="/page_menu_01.html" class="btn btn-primary -black-text -small">View details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- main content END -->
+			</section>
+			<!-- OUR MENU SECTION END -->
+
+			<!-- TESTIMONIALS SECTIONS -->
+			<section class="section section-testimonials" id="section-testimonials" data-anchor="section-testimonials-anchor">
+				<div class="container">
+					<div class="title-alighn">
+						<div class="title-wrap">
+							<h2 class="section-title -side-stick-big">Testimonials</h2>
+						</div>
+					</div>
+				</div>
+
+				<div class="container-fluid">
+					<div class="testimonials-modern-grid">
+						<div class="row">
+							<div class="col-xss-6 col-xs-3 col-md-2 testimonial-item">
+								<img class="testimonial-photo" src="img/testimonials_photo_1.jpg" alt="photo">
+								<div class="testimonial-text-block">
+									<h5 class="article-title">Johnna Doe</h5>
+									<div class="review-text-wrap">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+										<i class="fa fa-quote-right" aria-hidden="true"></i>
+									</div>
+								</div>
+							</div>
+							<div class="col-xss-6 col-xs-3 col-md-2 testimonial-item">
+								<img class="testimonial-photo" src="img/testimonials_photo_2.jpg" alt="photo">
+								<div class="testimonial-text-block">
+									<h5 class="article-title">Johnna Doe</h5>
+									<div class="review-text-wrap">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+										<i class="fa fa-quote-right" aria-hidden="true"></i>
+									</div>
+								</div>
+							</div>
+							<div class="col-xss-6 col-xs-3 col-md-2 testimonial-item">
+								<img class="testimonial-photo" src="img/testimonials_photo_10.jpg" alt="photo">
+								<div class="testimonial-text-block">
+									<h5 class="article-title">Johnna Doe</h5>
+									<div class="review-text-wrap">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+										<i class="fa fa-quote-right" aria-hidden="true"></i>
+									</div>
+								</div>
+							</div>
+							<div class="col-xss-6 col-xs-3 col-md-2 testimonial-item">
+								<img class="testimonial-photo" src="img/testimonials_photo_9.jpg" alt="photo">
+								<div class="testimonial-text-block">
+									<h5 class="article-title">Johnna Doe</h5>
+									<div class="review-text-wrap">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+										<i class="fa fa-quote-right" aria-hidden="true"></i>
+									</div>
+								</div>
+							</div>
+							<div class="col-xss-6 col-xs-3 col-md-2 testimonial-item">
+								<img class="testimonial-photo" src="img/testimonials_photo_3.jpg" alt="photo">
+								<div class="testimonial-text-block">
+									<h5 class="article-title">Johnna Doe</h5>
+									<div class="review-text-wrap">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+										<i class="fa fa-quote-right" aria-hidden="true"></i>
+									</div>
+								</div>
+							</div>
+							<div class="col-xss-6 col-xs-3 col-md-2 testimonial-item">
+								<img class="testimonial-photo" src="img/testimonials_photo_4.jpg" alt="photo">
+								<div class="testimonial-text-block">
+									<h5 class="article-title">Johnna Doe</h5>
+									<div class="review-text-wrap">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+										<i class="fa fa-quote-right" aria-hidden="true"></i>
+									</div>
+								</div>
+							</div>
+							<div class="col-xss-6 col-xs-3 col-md-2 testimonial-item">
+								<img class="testimonial-photo" src="img/testimonials_photo_5.jpg" alt="photo">
+								<div class="testimonial-text-block">
+									<h5 class="article-title">Johnna Doe</h5>
+									<div class="review-text-wrap">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+										<i class="fa fa-quote-right" aria-hidden="true"></i>
+									</div>
+								</div>
+							</div>
+							<div class="col-xss-6 col-xs-3 col-md-2 testimonial-item">
+								<img class="testimonial-photo" src="img/testimonials_photo_6.jpg" alt="photo">
+								<div class="testimonial-text-block">
+									<h5 class="article-title">Johnna Doe</h5>
+									<div class="review-text-wrap">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+										<i class="fa fa-quote-right" aria-hidden="true"></i>
+									</div>
+								</div>
+							</div>
+							<div class="col-xss-6 col-xs-3 col-md-2 testimonial-item">
+								<img class="testimonial-photo" src="img/testimonials_photo_7.jpg" alt="photo">
+								<div class="testimonial-text-block">
+									<h5 class="article-title">Johnna Doe</h5>
+									<div class="review-text-wrap">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+										<i class="fa fa-quote-right" aria-hidden="true"></i>
+									</div>
+								</div>
+							</div>
+							<div class="col-xss-6 col-xs-3 col-md-2 testimonial-item">
+								<img class="testimonial-photo" src="img/testimonials_photo_8.jpg" alt="photo">
+								<div class="testimonial-text-block">
+									<h5 class="article-title">Johnna Doe</h5>
+									<div class="review-text-wrap">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+										<i class="fa fa-quote-right" aria-hidden="true"></i>
+									</div>
+								</div>
+							</div>
+							<div class="col-xss-6 col-xs-3 col-md-2 testimonial-item">
+								<img class="testimonial-photo" src="img/testimonials_photo_9.jpg" alt="photo">
+								<div class="testimonial-text-block">
+									<h5 class="article-title">Johnna Doe</h5>
+									<div class="review-text-wrap">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+										<i class="fa fa-quote-right" aria-hidden="true"></i>
+									</div>
+								</div>
+							</div>
+							<div class="col-xss-6 col-xs-3 col-md-2 testimonial-item">
+								<img class="testimonial-photo" src="img/testimonials_photo_10.jpg" alt="photo">
+								<div class="testimonial-text-block">
+									<h5 class="article-title">Johnna Doe</h5>
+									<div class="review-text-wrap">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+										<i class="fa fa-quote-right" aria-hidden="true"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="container">
+					<div class="text-center">
+						<a href="/page-testimonials-01.html" class="btn btn-primary -black-text -small">See all</a>
+					</div>
+				</div>
+			</section>
+			<!-- TESTIMONIALS SECTIONS END -->
+
+			<!-- OUR SHOP SECTION -->
+			<section class="section section-our-shop" id="section-shop" data-anchor="section-shop-anchor">
+				<div class="container">
+					<div class="title-alighn">
+						<div class="title-wrap">
+							<h2 class="section-title -side-stick-big">Our shop</h2>
+						</div>
+					</div>
+					<div class="title-description">
+						<p>At vero eos et accusamus et iusto odio dignissimos ducmus qui blanditiis praesentium voluptatum deleolor olestias excepturi sint occaecati cupiditate non provident,</p>
+					</div>
+
+					<div class="row our-shop-items-wrap">
+						<div class="col-xss-12 col-xs-6 col-sm-3">
+							<div class="our-shop-card our-shop-card--black">
+								<a href="/product_page.html">
+									<img src="img/shop_item_img.jpg" alt="img">
+								</a>
+								<a href="/product_page.html" class="tabMenu-content-title">Italian Roast Espresso</a>
+								<p>Coffee beans</p>
+								<div class="our-shop-price-block">
+									<p class="our-shop-price">$32.00</p>
+									<a href="/product_page.html" class="our-shop-buy-link">Buy now <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xss-12 col-xs-6 col-sm-3">
+							<div class="our-shop-card our-shop-card--black">
+								<a href="/product_page.html">
+									<img src="img/shop_item_img.jpg" alt="img">
+								</a>
+								<a href="/product_page.html" class="tabMenu-content-title">Italian Roast Espresso</a>
+								<p>Coffee beans</p>
+								<div class="our-shop-price-block">
+									<p class="our-shop-price">$32.00</p>
+									<a href="/product_page.html" class="our-shop-buy-link">Buy now <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xss-12 col-xs-6 col-sm-3">
+							<div class="our-shop-card our-shop-card--black">
+								<a href="/product_page.html">
+									<img src="img/shop_item_img.jpg" alt="img">
+								</a>
+								<a href="/product_page.html" class="tabMenu-content-title">Italian Roast Espresso</a>
+								<p>Coffee beans</p>
+								<div class="our-shop-price-block">
+									<p class="our-shop-price">$32.00</p>
+									<a href="/product_page.html" class="our-shop-buy-link">Buy now <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xss-12 col-xs-6 col-sm-3">
+							<div class="our-shop-card our-shop-card--black">
+								<a href="/product_page.html">
+									<img src="img/shop_item_img.jpg" alt="img">
+								</a>
+								<a href="/product_page.html" class="tabMenu-content-title">Italian Roast Espresso</a>
+								<p>Coffee beans</p>
+								<div class="our-shop-price-block">
+									<p class="our-shop-price">$32.00</p>
+									<a href="/product_page.html" class="our-shop-buy-link">Buy now <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="text-center">
+						<a href="/shop.html" class="btn btn-primary -black-text -small">View all products</a>
+					</div>
+
+				</div>
+			</section>
+			<!-- OUR SHOP SECTION END -->
+
+			<!-- CONTACT US SECTION -->
+			<section class="section section-contact-us section-contact-us--black" id="section-contact-us" data-anchor="section-contact-us-anchor">
+				<div class="container">
+					<div class="row">
+						<!-- left content -->
+						<div class="col-xs-12 col-sm-8 col-lg-7">
+							<div class="title-alighn">
+								<div class="title-wrap">
+									<h2 class="section-title -side-stick-big">Contact us</h2>
+								</div>
+							</div>
+							<div class="title-description">
+								<p>At vero eos et accusamus et iusto odio dignissimos ducmus qui blanditiis praesentium voluptatum deleolor olestias excepturi sint occaecati cupiditate non provident,</p>
+							</div>
+							<div class="row contact-us-content-wrap">
+								<div class="col-xss-12 col-xs-6 col-sm-12 col-md-7">
+									<div class="contact-us-left-side">
+										<div class="contacts-item">
+											<h5 class="article-title -black">Address</h5>
+											<ul class="contacts-list contacts-list--address">
+												<li>
+													<i class="fa fa-home" aria-hidden="true"></i>
+													<span class="small-text">At vero acudsmetus, voluptatum</span>
+												</li>
+												<li>
+													<a href="tel:+1413126789">
+														<i class="fa fa-phone" aria-hidden="true"></i>
+														<span class="social-descr small-text">+1 (413) 126 789</span>
+													</a>
+												</li>
+												<li>
+													<a href="mailto:hello@nextdoorcafe.com">
+														<i class="fa fa-envelope" aria-hidden="true"></i>
+														<span class="social-descr small-text">hello@nextdoorcafe.com</span>
+													</a>
+												</li>
+											</ul>
+										</div>
+
+										<div class="contacts-item">
+											<h5 class="article-title -black">Working hours</h5>
+											<ul class="contacts-list small-text">
+												<li>10:00 am to 11:00 pm on Weekdays</li>
+												<li>11:00 am to 11:00 pm on Weekends</li>
+											</ul>
+										</div>
+
+										<div class="contacts-item">
+											<h5 class="article-title -black">Social links</h5>
+											<div class="follow-block">
+												<ul class="social-list -md-2 -black">
+													<li>
+														<a href="javascript:void(0);" target="_blank">
+															<i class="fa fa-facebook" aria-hidden="true"></i>
+														</a>
+													</li>
+													<li>
+														<a href="javascript:void(0);" target="_blank">
+															<i class="fa fa-twitter" aria-hidden="true"></i>
+														</a>
+													</li>
+													<li>
+														<a href="javascript:void(0);" target="_blank">
+															<i class="fa fa-google-plus" aria-hidden="true"></i>
+														</a>
+													</li>
+													<li>
+														<a href="javascript:void(0);" target="_blank">
+															<i class="fa fa-pinterest-p" aria-hidden="true"></i>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+
+									</div>
+								</div>
+
+								<div class="col-xss-12 col-xs-6 col-sm-12 col-md-4">
+									<div class="contact-us-right-side">
+
+										<h5 class="article-title -black">Instagram</h5>
+
+										<div class="instagram-board instagram-board--grid">
+											<a href="javascript:void(0);">
+												<img src="img/instagram_img_1.png" alt="photo">
+											</a>
+											<a href="javascript:void(0);">
+												<img src="img/instagram_img_2.png" alt="photo">
+											</a>
+											<a href="javascript:void(0);">
+												<img src="img/instagram_img_1.png" alt="photo">
+											</a>
+											<a href="javascript:void(0);">
+												<img src="img/instagram_img_2.png" alt="photo">
+											</a>
+											<a href="javascript:void(0);">
+												<img src="img/instagram_img_1.png" alt="photo">
+											</a>
+											<a href="javascript:void(0);">
+												<img src="img/instagram_img_2.png" alt="photo">
+											</a>
+											<a href="javascript:void(0);">
+												<img src="img/instagram_img_1.png" alt="photo">
+											</a>
+											<a href="javascript:void(0);">
+												<img src="img/instagram_img_2.png" alt="photo">
+											</a>
+											<a href="javascript:void(0);">
+												<img src="img/instagram_img_1.png" alt="photo">
+											</a>
+											<a href="javascript:void(0);">
+												<img src="img/instagram_img_2.png" alt="photo">
+											</a>
+											<a href="javascript:void(0);">
+												<img src="img/instagram_img_1.png" alt="photo">
+											</a>
+											<a href="javascript:void(0);">
+												<img src="img/instagram_img_2.png" alt="photo">
+											</a>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<!-- left content END -->
+
+						<!-- map -->
+						<div class="col-xs-12 col-sm-4 col-sm-offset-1 map-absolute">
+							<div class="map-container">
+								<div class="map-wrap">
+									<div id="blackMap"></div>
+								</div>
+							</div>
+						</div>
+						<!-- map END -->
+
+					</div>
+				</div>
+
+				<!-- FOOTER -->
+				<div class="footer footer-absolute text-center -coffee-bg">
+					<div class="container">
+						<p>Next Door Coffee 2018</p>
+					</div>
+				</div>
+				<!-- FOOTER END -->
+			</section>
+			<!-- CONTACT US SECTION END -->
+		</main>
+
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/moment-with-locales.min.js"></script>
+	<script src="js/bootstrap-select.min.js"></script>
+	<script src="js/shuffle.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap-datetimepicker.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/rellax.min.js"></script>
+	<script src="js/masonry.pkgd.min.js"></script>
+	<script src="js/slick-lightbox.min.js"></script>
+
+	<script src="js/slidebars.min.js"></script>
+	<script src="js/jquery.fullpage.js"></script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSM5q5G28jLqw3fcBKoV5qRLUv_HcCnmM"></script>
+	<script src="js/all.js"></script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,18 @@
+.header-top-line-wrap { position: relative; }
+
+.header-logo {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+
+.header-logo img { max-width: 65px; }
+#main_navbar { margin-left: 50px; }
+
+.section-our-gallery.-small-nav-block .gallery-filter-nav a { color: #FFFFFF; }
+
+@media screen and (min-width: 1024px) {
+	.header-logo {
+		left: calc(50% - 512px);
+	}
+}
